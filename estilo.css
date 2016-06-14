@@ -1,3 +1,14 @@
-body {
-	background: red;
-}
+#cabecalho { 
+            background: é uma imagem;
+            font-family: Muli;
+            color: white;
+            font-size: 12px;
+
+ }
+
+ #footer {
+ 	background: é uma imagem;
+ 	font-size: 27px;
+ 	color: black;
+ 	social media icones (imagem);
+ }
