@@ -1,32 +1,138 @@
 <!DOCTYPE html>
 <html>
-<header>
-	<a><img src="http://www.festadasemana.com.br/macapa/img/logo-festadasemana.png"></a>
-
-</header>
-<div menu>
-	<select> cidade?
-		<option> numero de cidades? </option>
-		<option> caixa de busca? </option>
-	</select>
-</div>
-
-<section id="cabecalho">
-	<a href="Fotos"><img src="como por o icone aqui?"></a>
-	<a href="Festas"><img src="como por o icone aqui?"></a>
-	<a href="Eventos Sociais"><img src="como por o icone aqui?"></a>
-	<a href="Eventos Comemorativos"><img src="Commo por icone"></a>
-	<a href="Shows"><img src="como por icone"></a>
-	<a href="Calendário"><img src="como por icone"></a>
-	<a href="Divulgue sua Festa"><img src="como por icone"></a>
-	<a href="Promoções"><img src="como por icone"></a>
-	<a href="Mapa de Festas"><img src="como por icone"></a>
-	<a href="Vídeos"><img src="como por icone pq não é da internet"></a>
-	<div background><a img src="Como por a imagem de fundo aqui"></a></div>
-</section>
+	<head>
+	<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
 
 <body>
-	<title>PRÓXIMOS EVENTOS</title>
+<header>
+	<a><img src="imagens/logo-festadasemana.png"></a>
+
+	<div id="menu">
+		<form method="post" action="cadastrar-selecao.php">
+			<select name="Escolha sua cidade"> 
+				<option> Escolha sua cidade </option>
+				<option value="Macapa">Macapa</option>
+				<option value="Salvador">Salvador</option>
+				<option value="Brasília">Brasília</option>
+				<option value="Goiânia">Goiânia</option>
+				<option value="Catalão">Catalão</option>
+				<option value="Belo Horizonte">Belo Horizonte</option>
+				<option value="Campo Grande">Campo Grande</option>
+				<option value="Nova Andradina">Nova Andradina</option>
+				<option value="Cuiabá">Cuiabá</option>
+				<option value="Pedra Preta">Pedra Preta</option>
+				<option value="Belém">Belém</option>
+				<option value="Caruaru">Caruaru</option>
+				<option value="Petrolina">Petrolina</option>
+				<option value="Teresina">Teresina</option>
+				<option value="Curitiba">Curitiba</option>
+				<option value="Campo Mourão">Campo Mourão</option>
+				<option value="Londrina">Londrina</option>
+				<option value="Rio de Janeiro">Rio de Janeiro</option>
+				<option value="Natal">Natal</option>
+				<option value="Boa Vista">Boa Vista</option>
+				<option value="Porto Alegre">Porto Alegre</option>
+				<option value="Bagé">Bagé</option>
+				<option value="Florianópolis">Florianópolis</option>
+				<option value="Balneário Camboriú">Balneário Camboriú</option>
+				<option value="Blumenau e Indaial">Blumenau e Indaial</option>
+				<option value="Criciúma e Região">Criciúma e Região</option>
+				<option value="Guaramirim">Guaramirim</option>
+				<option value="Jaraguá do Sul">Jaraguá do Sul</option>
+				<option value="Joinville">Joinville</option>
+				<option value="Tubarão">Tubarão</option>
+				<option value="São Paulo">São Paulo</option>
+				<option value="Atibaia">Atibaia</option>
+				<option value="Bauru">Bauru</option>
+				<option value="Campinas">Campinas</option>
+				<option value="Limeira">Limeira</option>
+				<option value="Ribeirão Preto">Ribeirão Preto</option>
+				<option value="Sorocaba">Sorocaba</option>
+				<option value="Palmas">Palmas</option>
+			</select>
+			<input type="search" name="">
+		</form>
+	</div>
+
+	<ul id="cabecalho">
+		
+		<li>
+			<a href="Fotos">
+				<img src="imagens/icone-fotos.png" class="icone-menu">
+				<span>Fotos</span>
+			</a>
+		</li>
+		
+		<li>
+			<a href="Festas">
+			<img src="imagens/icone-festas.png" class="icone-menu"></a>
+			<span>Festas</span>
+			</a>
+		</li>
+		
+		<li>
+		    <a href="Eventos Sociais">
+		        <img src="imagens/icone-sociais.png" class="icone-menu">
+                <span>Eventos Sociais</span>
+		        </a>
+		        </li>
+		
+		<li>
+		<a href="Eventos Comemorativos">
+		<img src="imagens/icone-comemorativos.png" class="icone-menu">
+        <span>Eventos Comemorativos</span>
+		</a>
+		</li>
+		
+		<li>
+		<a href="Shows">
+		<img src="imagens/icone-shows.png" class="icone-menu">
+        <span>Shows</span>
+		</a>
+		</li>
+		
+		<li>
+		<a href="Calendário">
+		<img src="imagens/icone-calendario.png" class="icone-menu">
+        <span>Calendário</span>
+		</a>
+		</li>
+		
+		<li>
+		<a href="Divulgue sua Festa">
+		<img src="imagens/icone-divulgue.png" class="icone-menu">
+        <span>Divulgue sua Festa</span>
+		</a>
+		</li>
+		
+		<li>
+		<a href="Promoções">
+		<img src="imagens/icone-promocoes.png" class="icone-menu">
+        <span>Promoções</span>
+		</a>
+		</li>
+		
+		<li>
+		<a href="Mapa de Festas">
+		<img src="imagens/icone-mapa.png" class="icone-menu">
+        <span>Mapa de Festas</span>
+		</a>
+		</li>
+		
+		<li>
+		<a href="Vídeos">
+		<img src="imagens/icone-videos.png" class="icone-menu">
+        <span>Vídeos</span>
+		</a>
+		</li>
+
+		<div background><a img src="imagens/cabecalho-topo.png" class="icone-menu"></a></div>
+	</ul>
+
+</header>
+
 	<div slider> como por fotos passando aqui </div>
 	</body>
 
@@ -39,11 +145,16 @@
 	<a href="#"><img src="como por icone facebook"></a>
 	<a href="#"><img src="como por icone twitter"></a>
 	<a href="#"><img src="como por icone instagram"></a>
-	<h2>CHAME UM FOTÓGRAFO</h2>
-	<h2>CADASTRE UM EVENTO</h2>
-	<h2>CADASTRE SEU ESTABELECIMENTO</h2>
-	<h2>CADASTRE SUA BANDA / DJ</h2>
+	<div direita>
+	<a href="CHAME UM FOTÓGRAFO"><img src="imagens/risco-tinta.png"></a>
+	<a href="CADASTRE UM EVENTO"><img src="imagens/risco-tinta.png"></a>
+	<a href="CADASTRE SEU ESTABELECIMENTO"><img src="imagens/risco-tinta.png"></a>
+	<a href="CADASTRE SUA BANDA / DJ"><img src="imagens/risco-tinta.png"></a>
+	</div>
 </ul>
 	
 
 </div>
+
+</body>
+</html>

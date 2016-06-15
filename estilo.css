@@ -1,3 +1,7 @@
+body {
+	background: white;
+}
+
 #cabecalho { 
             background: é uma imagem;
             font-family: Muli;
@@ -7,8 +11,18 @@
  }
 
  #footer {
- 	background: é uma imagem;
+ 	background-image: url("imagens/rodapefundo.png");
  	font-size: 27px;
  	color: black;
  	social media icones (imagem);
  }
+
+ .icone-menu {
+ 	width: 50px;
+ }
+
+ header {
+ 	background-image: url("imagens/cabecalho-topo.png");
+ }
+
+       .select 
